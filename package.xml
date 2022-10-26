@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>surveyController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Answer__c.Answer__c</members>
+        <members>Answer__c.Contact__c</members>
+        <members>Answer__c.Question__c</members>
+        <members>Answer__c.Read_More_Time__c</members>
+        <members>Answer__c.Read_More__c</members>
+        <members>Answer__c.Time__c</members>
+        <members>Contact.Age__c</members>
+        <members>Contact.Education__c</members>
+        <members>Contact.Gender__c</members>
+        <members>Contact.Survey__c</members>
+        <members>Question__c.Active__c</members>
+        <members>Question__c.Additional_Information__c</members>
+        <members>Question__c.Question__c</members>
+        <members>Question__c.Step__c</members>
+        <members>Question__c.Survey__c</members>
+        <members>Question__c.Type__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Answer__c</members>
+        <members>Contact</members>
+        <members>Question__c</members>
+        <members>Survey__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Answer__c</members>
+        <members>Question__c</members>
+        <members>Survey__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Answer__c-Answer Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Question__c-Question Layout</members>
+        <members>Survey__c-Survey Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>currentQuestion</members>
+        <members>survey</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Answer__c.All</members>
+        <members>Question__c.All</members>
+        <members>Survey__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>field_permission</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>checkMark</members>
+        <name>StaticResource</name>
+    </types>
+    <version>55.0</version>
+</Package>
