@@ -14,7 +14,6 @@
         <members>Contact.Age__c</members>
         <members>Contact.Education__c</members>
         <members>Contact.Gender__c</members>
-        <members>Contact.Survey__c</members>
         <members>Question__c.Active__c</members>
         <members>Question__c.Additional_Information__c</members>
         <members>Question__c.Question__c</members>
@@ -51,6 +50,7 @@
     </types>
     <types>
         <members>Answer__c.All</members>
+        <members>Contact.AllContacts</members>
         <members>Question__c.All</members>
         <members>Survey__c.All</members>
         <name>ListView</name>
