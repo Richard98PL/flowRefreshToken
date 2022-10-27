@@ -36,6 +36,11 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Ankieta</members>
+        <members>Ankieta/IkxsxXzJlZIgQSMhIEAIHjFMlwBbeG</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
         <members>Answer__c-Answer Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact Layout</members>
@@ -58,6 +63,13 @@
     <types>
         <members>field_permission</members>
         <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>unfiled$public/Ankieta_Contacts</members>
+        <members>unfiled$public/Contacts_with_Answers_Demographic_Report</members>
+        <members>unfiled$public/Contacts_with_Answers_Report</members>
+        <members>unfiled$public/Contacts_with_Read_More_Answers_Report</members>
+        <name>Report</name>
     </types>
     <types>
         <members>checkMark</members>
