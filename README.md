@@ -17,8 +17,10 @@ get code from browser response<br>
 ![image](https://user-images.githubusercontent.com/41301282/198655140-a80b5aa3-0a6b-4b80-bbcc-391683fed58c.png)
 <br><br>
 
-<b>3. Get refresh token with code and write it down. </b><br>
-DON'T repeat the steps, since refresh_token will be invalid
+<b>3. Get refresh token with code and write it down </b><br>
+<br>
+<h2>DON'T repeat the steps, since refresh_token will be invalid!<h2>
+<br>
 <br>```https://login.salesforce.com/services/oauth2/token?```
 <br>```code=-->code_here<---&```
 <br>```grant_type=authorization_code&```
