@@ -3,7 +3,7 @@
 <img width="1403" alt="image" src="https://user-images.githubusercontent.com/41301282/198689872-3eed4dff-a7b5-4603-9350-7fb248c0f2c9.png">
 
 
-<b>1. Create connected app withe following configuration</b>
+<b>1. Create connected app with the following configuration</b>
 ![image](https://user-images.githubusercontent.com/41301282/198654875-c9b5e0c7-8c26-4696-9097-cae630c65b6e.png)
 <br><br>
 
