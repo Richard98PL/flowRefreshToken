@@ -1,4 +1,4 @@
-<h5>HOW TO STEP BY STEP</h5>
+<h1>HOW TO STEP BY STEP</h1><br>
 ![image](https://user-images.githubusercontent.com/41301282/198681542-b272dac1-2b9b-420e-94f7-2fbb4924f040.png)
 
 <b>1. Create connected app withe following configuration</b>
@@ -10,7 +10,7 @@
 <br>```client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&```
 <br>```redirect_uri=https://login.salesforce.com/```
 <br>
-get code from browser response
+get code from browser response<br>
 ![image](https://user-images.githubusercontent.com/41301282/198655140-a80b5aa3-0a6b-4b80-bbcc-391683fed58c.png)
 <br><br>
 <b>3. Get refresh token with code and write it down. </b>
@@ -36,7 +36,8 @@ steps:
      
 <br><br>
 <b>6. yaml.file </b>
-<br> https://github.com/Richard98PL/flowRefreshToken/blob/main/.github/workflows/main.yml (#### is comment in yaml - runLocalTests is commented out)
+<br> https://github.com/Richard98PL/flowRefreshToken/blob/main/.github/workflows/main.yml 
+<br>(#### is comment in yaml - runLocalTests is commented out)
 <br><br>
 
 
