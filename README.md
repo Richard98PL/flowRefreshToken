@@ -30,5 +30,8 @@ steps:
 7. result <br>
 ![image](https://user-images.githubusercontent.com/41301282/198681542-b272dac1-2b9b-420e-94f7-2fbb4924f040.png)
 <br>
+1. create connected app withe following configuration
+![image](https://user-images.githubusercontent.com/41301282/198654875-c9b5e0c7-8c26-4696-9097-cae630c65b6e.png)
+<br><br>
 
 
