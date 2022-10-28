@@ -16,6 +16,8 @@ jobs:
           echo "switched `pwd`"
           cd "/home/runner/work/flowRefreshToken/"
           echo "switched `pwd`"
-          cd "/home/runner/work/flowRefreshToken/flowRefreshToken/force-app"
+          cd "/home/"
+          echo "e? `ls -a`"
+          cd "/home/runner/work/flowRefreshToken/force-app"
           echo "switched `pwd`"
           sfdx force:source:deploy -x manifest/package.xml -l RunLocalTests
