@@ -8,7 +8,7 @@
 <br> You need to have this: 
 <br>
 
-     ```sfdx-auth-url: force://${{secrets.CLIENT_ID}}:${{secrets.CLIENT_SECRET}}:${{secrets.REFRESH_TOKEN}}@org.my.salesforce.com```
+     sfdx-auth-url: force://${{secrets.CLIENT_ID}}:${{secrets.CLIENT_SECRET}}:${{secrets.REFRESH_TOKEN}}@org.my.salesforce.com```
 
 <br> So you need 3 things: clientId (easy), clientSecret (easy) and refresh_token (hard to get)
 
