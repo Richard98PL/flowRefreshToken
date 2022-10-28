@@ -8,8 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+      - name: Checkout repository files 
+        uses: actions/checkout@v2
+        
       - uses: sfdx-actions/setup-sfdx@v1
         with:
           sfdx-auth-url: force://${{secrets.CLIENT_ID}}:${{secrets.CLIENT_SECRET}}:${{secrets.REFRESH_TOKEN}}@rogalski-dev-ed.my.salesforce.com
       - name: sfdx-actions
-        run: sfdx force:source:deploy -p force-app -l RunLocalTests
+        run: | 
+          echo "switched `pwd`"
+          echo "e? `ls -a`"
+          sfdx force:source:deploy -x manifest/package.xml -l RunLocalTests
