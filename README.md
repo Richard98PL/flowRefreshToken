@@ -8,7 +8,7 @@
 <br><br>
 
 <b>2. Go to web page and paste the following</b>
-<br>```https://login.salesforce.com/services/oauth2/authorize```
+<br>```https://login.salesforce.com/services/oauth2/authorize?```
 <br>```response_type=code&```
 <br>```client_id=...&```
 <br>```redirect_uri=https://login.salesforce.com/```
