@@ -25,4 +25,6 @@ steps:
      <br> - name: Checkout repository files 
      <br>  uses: actions/checkout@v2
 <br><br>
-6. yaml.file -> https://github.com/Richard98PL/flowRefreshToken/blob/main/.github/workflows/main.yml
+6. yaml.file -> https://github.com/Richard98PL/flowRefreshToken/blob/main/.github/workflows/main.yml (#### is comment in yaml - runLocalTests is commented out)
+7. ![image](https://user-images.githubusercontent.com/41301282/198680967-bd1493c7-5f26-4288-9461-3a6ad14d5d3a.png)
+
