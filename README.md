@@ -5,7 +5,11 @@ HOW TO STEP BY STEP
 ![image](https://user-images.githubusercontent.com/41301282/198654875-c9b5e0c7-8c26-4696-9097-cae630c65b6e.png)
 <br><br>
 2. go to web page and paste following
-https://login.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&redirect_uri=https://login.salesforce.com/
+<br>
+```https://login.salesforce.com/services/oauth2/authorize```
+<br>```response_type=code&```
+<br>```client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&```
+<br>```redirect_uri=https://login.salesforce.com/```
 <br><br>
 get code from browser response
 ![image](https://user-images.githubusercontent.com/41301282/198655140-a80b5aa3-0a6b-4b80-bbcc-391683fed58c.png)
@@ -24,13 +28,13 @@ https://login.salesforce.com/services/oauth2/token?
 <br>then use 
 <br>```sfdx force:source:deploy -w 100 --ignorewarnings --manifest package.xml -l RunLocalTests ```
 <br> or simply use
-<br>
-```sfdx force:source:deploy -p force-app -l RunLocalTests```
+     ```sfdx force:source:deploy -p force-app -l RunLocalTests```
 <br><br>
 5. dont forget to use checkout github action in order to retrieve directory files to the machine
 steps:
      <br> ```- name: Checkout repository files ```
      <br> ``` uses: actions/checkout@v2```
+     
 <br><br>
 6. yaml.file -> https://github.com/Richard98PL/flowRefreshToken/blob/main/.github/workflows/main.yml (#### is comment in yaml - runLocalTests is commented out)
 <br><br>
