@@ -14,7 +14,6 @@ jobs:
       - name: sfdx-actions
         run: | 
           echo "switched `pwd`"
-          echo "`ls -a`"
-          cd ..
-          echo "`ls -a`"
+          cd "/home/runner/work/flowRefreshToken/"
+          echo "switched `pwd`"
           sfdx force:source:deploy -x manifest/package.xml -l RunLocalTests
