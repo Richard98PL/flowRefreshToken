@@ -38,7 +38,7 @@ DON'T repeat the steps, since refresh_token will be invalid
 <b>5. Don't forget to use checkout github action in order to retrieve directory files to the machine</b>
 steps:
      <br> ```- name: Checkout repository files ```
-     <br>    ``` uses: actions/checkout@v2```
+     <br>    ```<t>    uses: actions/checkout@v2```
 <br><br>
 <b>6. yaml.file </b>
 <br> https://github.com/Richard98PL/flowRefreshToken/blob/main/.github/workflows/main.yml 
