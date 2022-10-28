@@ -9,8 +9,7 @@ https://login.salesforce.com/services/oauth2/authorize?response_type=code&client
 get code from browser response
 ![image](https://user-images.githubusercontent.com/41301282/198655140-a80b5aa3-0a6b-4b80-bbcc-391683fed58c.png)
 <br><br>
-3.
-get refresh token with code and write it down. 
+3. get refresh token with code and write it down. 
 DON'T repeat the steps, since refresh_token will be invalid
 https://login.salesforce.com/services/oauth2/token?code=<code_here>&grant_type=authorization_code&client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&client_secret=80292F23E5CC4AB17CDC81A171F66F9E464948B6ED47EB210368478E9873FC66&redirect_uri=https://login.salesforce.com/
 <br><br>
