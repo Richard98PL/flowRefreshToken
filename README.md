@@ -13,11 +13,11 @@ get code from browser response
 3. get refresh token with code and write it down. 
 DON'T repeat the steps, since refresh_token will be invalid
 https://login.salesforce.com/services/oauth2/token?
-<br>code<code_here>&
-<br>grant_type=authorization_code&
-<br>client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&
-<br>client_secret=80292F23E5CC4AB17CDC81A171F66F9E464948B6ED47EB210368478E9873FC66&
-<br>redirect_uri=https://login.salesforce.com/
+<br>```code<code_here>&```
+<br>```grant_type=authorization_code&```
+<br>```client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&```
+<br>```client_secret=80292F23E5CC4AB17CDC81A171F66F9E464948B6ED47EB210368478E9873FC66&```
+<br>```redirect_uri=https://login.salesforce.com/```
 <br><br>
 4. Generate package.xml each time you want deploy with
 <br>```sfdx force:source:manifest:create --sourcepath force-app --manifestname package.xml ```
