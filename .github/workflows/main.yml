@@ -16,6 +16,6 @@ jobs:
           sfdx-auth-url: force://${{secrets.CLIENT_ID}}:${{secrets.CLIENT_SECRET}}:${{secrets.REFRESH_TOKEN}}@rogalski-dev-ed.my.salesforce.com
       - name: sfdx-actions
         run: | 
-          echo "switched `pwd`"
-          echo "e? `ls -a`"
+          echo "current directory `pwd`"
+          echo "all files: `ls -a`"
           sfdx force:source:deploy -p force-app #### -l RunLocalTests
