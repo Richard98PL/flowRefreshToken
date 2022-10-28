@@ -10,7 +10,7 @@ HOW TO STEP BY STEP
 <br>```response_type=code&```
 <br>```client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&```
 <br>```redirect_uri=https://login.salesforce.com/```
-<br><br>
+<br>
 get code from browser response
 ![image](https://user-images.githubusercontent.com/41301282/198655140-a80b5aa3-0a6b-4b80-bbcc-391683fed58c.png)
 <br><br>
