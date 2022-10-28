@@ -20,3 +20,10 @@ then use sfdx force:source:deploy -w 100 --ignorewarnings --manifest package.xml
 
 or simply use
 sfdx force:source:deploy -p force-app -l RunLocalTests
+
+5. dont forget to use checkout github action in order to retrieve directory files to the machine
+steps:
+      - name: Checkout repository files 
+        uses: actions/checkout@v2
+
+6. yaml.file -> https://github.com/Richard98PL/flowRefreshToken/blob/main/.github/workflows/main.yml
