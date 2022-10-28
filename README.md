@@ -19,7 +19,7 @@ get code from browser response<br>
 
 <b>3. Get refresh token with code and write it down </b><br>
 <br>
-<h2>DON'T repeat the steps, since refresh_token will be invalid!<h2>
+<h2>DON'T repeat the steps, since refresh_token will be invalid!</h2>
 <br>
 <br>```https://login.salesforce.com/services/oauth2/token?```
 <br>```code=-->code_here<---&```
