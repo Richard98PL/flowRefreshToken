@@ -1,18 +1,22 @@
-# Salesforce DX Project: Next Steps
+HOW TO STEP BY STEP
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+1. create connected app withe following configuration
+![image](https://user-images.githubusercontent.com/41301282/198654875-c9b5e0c7-8c26-4696-9097-cae630c65b6e.png)
 
-## How Do You Plan to Deploy Your Changes?
+2. go to web page and paste following
+https://login.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&redirect_uri=https://login.salesforce.com/
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+get code from browser response
+![image](https://user-images.githubusercontent.com/41301282/198655140-a80b5aa3-0a6b-4b80-bbcc-391683fed58c.png)
 
-## Configure Your Salesforce DX Project
+3.
+get refresh token with code and write it down. 
+DON'T repeat the steps, since refresh_token will be invalid
+https://login.salesforce.com/services/oauth2/token?code=<code_here>&grant_type=authorization_code&client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&client_secret=80292F23E5CC4AB17CDC81A171F66F9E464948B6ED47EB210368478E9873FC66&redirect_uri=https://login.salesforce.com/
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+4. Generate package.xml each time you want deploy with 
+sfdx force:source:manifest:create --sourcepath force-app --manifestname package.xml 
+then use sfdx force:source:deploy -w 100 --ignorewarnings --manifest package.xml -l RunLocalTests
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+or simply use
+sfdx force:source:deploy -p force-app -l RunLocalTests

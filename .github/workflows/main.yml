@@ -1,0 +1,15 @@
+name: SFDX Test Run on Push
+
+on: [push]
+
+jobs:
+  test:
+  
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: sfdx-actions/setup-sfdx@v1
+        with:
+          sfdx-auth-url: force://${{secrets.CLIENT_ID}}:${{secrets.CLIENT_SECRET}}:${{secrets.REFRESH_TOKEN}}@rogalski-dev-ed.my.salesforce.com
+      - name: sfdx-actions
+        run: sfdx force:source:deploy -p force-app -l RunLocalTests
