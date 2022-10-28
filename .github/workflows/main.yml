@@ -12,4 +12,5 @@ jobs:
         with:
           sfdx-auth-url: force://${{secrets.CLIENT_ID}}:${{secrets.CLIENT_SECRET}}:${{secrets.REFRESH_TOKEN}}@rogalski-dev-ed.my.salesforce.com
       - name: sfdx-actions
-        run: sfdx force:source:deploy -w 100 --ignorewarnings --manifest manifest/package.xml -l RunLocalTests
+        run: | 
+          sfdx force:source:deploy -x manifest/package.xml -l RunLocalTests
