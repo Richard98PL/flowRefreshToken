@@ -5,8 +5,8 @@
 <br>
 <b>0. Whole idea behind solution </b>
 <br>
-You need to have this: <br>
-```sfdx-auth-url: force://${{secrets.CLIENT_ID}}:${{secrets.CLIENT_SECRET}}:${{secrets.REFRESH_TOKEN}}@rogalski-dev-ed.my.salesforce.com```
+You need to have this: 
+<br>```sfdx-auth-url: force://${{secrets.CLIENT_ID}}:${{secrets.CLIENT_SECRET}}:${{secrets.REFRESH_TOKEN}}@rogalski-dev-ed.my.salesforce.com```
 <br> So you need 3 things: clientId, clientSecret (easy) and refresh_token (hard to get)
 <br>
 <b>1. Create connected app with the following configuration</b>
