@@ -17,7 +17,7 @@ get code from browser response<br>
 ![image](https://user-images.githubusercontent.com/41301282/198655140-a80b5aa3-0a6b-4b80-bbcc-391683fed58c.png)
 <br><br>
 
-<b>3. Get refresh token with code and write it down. </b>
+<b>3. Get refresh token with code and write it down. </b><br>
 DON'T repeat the steps, since refresh_token will be invalid
 <br>```https://login.salesforce.com/services/oauth2/token?```
 <br>```code=-->code_here<---&```
@@ -42,7 +42,7 @@ steps:
      <br> ```- name: Checkout repository files ```
      <br>    ```      uses: actions/checkout@v2```
 <br><br>
-<b>6. yaml.file </b>
+<b>6. YML file created in .github/workflows</b>
 <br> https://github.com/Richard98PL/flowRefreshToken/blob/main/.github/workflows/main.yml 
 <br>(#### is comment in yaml - runLocalTests is commented out)
 <br><br>
