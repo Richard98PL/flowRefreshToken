@@ -14,4 +14,5 @@ jobs:
       - name: sfdx-actions
         run: | 
           echo "switched `pwd`"
+          echo "all `ls -a`"
           sfdx force:source:deploy -x manifest/package.xml -l RunLocalTests
