@@ -5,8 +5,7 @@ HOW TO STEP BY STEP
 ![image](https://user-images.githubusercontent.com/41301282/198654875-c9b5e0c7-8c26-4696-9097-cae630c65b6e.png)
 <br><br>
 2. go to web page and paste following
-<br>
-```https://login.salesforce.com/services/oauth2/authorize```
+<br>```https://login.salesforce.com/services/oauth2/authorize```
 <br>```response_type=code&```
 <br>```client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&```
 <br>```redirect_uri=https://login.salesforce.com/```
