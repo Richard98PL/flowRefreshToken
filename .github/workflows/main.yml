@@ -19,5 +19,5 @@ jobs:
           echo "switched `pwd`"
           echo "e? `ls -a`"
           sfdx force:source:deploy 
-          -p force-app 
-          # -l RunLocalTests
+            -p force-app 
+            # -l RunLocalTests
