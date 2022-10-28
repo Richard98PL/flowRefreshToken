@@ -15,9 +15,8 @@ https://login.salesforce.com/services/oauth2/token?code=<code_here>&grant_type=a
 <br><br>
 4. Generate package.xml each time you want deploy with 
 sfdx force:source:manifest:create --sourcepath force-app --manifestname package.xml 
-then use sfdx force:source:deploy -w 100 --ignorewarnings --manifest package.xml -l RunLocalTests
-<br>
-or simply use
+then use sfdx force:source:deploy -w 100 --ignorewarnings --manifest package.xml -l RunLocalTests 
+<br> or simply use
 <br>
 sfdx force:source:deploy -p force-app -l RunLocalTests
 <br><br>
