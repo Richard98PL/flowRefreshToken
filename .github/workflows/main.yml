@@ -3,7 +3,7 @@ name: SFDX Test Run on Push
 on: [push]
 
 jobs:
-  test:
+  pipeline:
   
     runs-on: ubuntu-latest
     
