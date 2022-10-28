@@ -10,7 +10,7 @@
 <b>2. Go to web page and paste the following</b>
 <br>```https://login.salesforce.com/services/oauth2/authorize```
 <br>```response_type=code&```
-<br>```client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&```
+<br>```client_id=...&```
 <br>```redirect_uri=https://login.salesforce.com/```
 <br>
 get code from browser response<br>
@@ -22,8 +22,8 @@ DON'T repeat the steps, since refresh_token will be invalid
 <br>```https://login.salesforce.com/services/oauth2/token?```
 <br>```code=-->code_here<---&```
 <br>```grant_type=authorization_code&```
-<br>```client_id=3MVG9Ve.2wqUVx_Zxc8eDY5c4Mzb6ZmT.x8RwxU.mzeVGM7tIMVQHJjdHygTiDE_.yXZChDxX2oHgc2ljhCPy&```
-<br>```client_secret=80292F23E5CC4AB17CDC81A171F66F9E464948B6ED47EB210368478E9873FC66&```
+<br>```client_id=...&```
+<br>```client_secret=...&```
 <br>```redirect_uri=https://login.salesforce.com/```
 <br><br>
 
@@ -31,8 +31,10 @@ DON'T repeat the steps, since refresh_token will be invalid
 <br>```sfdx force:source:manifest:create --sourcepath force-app --manifestname package.xml ```
 <br>then use 
 <br>```sfdx force:source:deploy -w 100 --ignorewarnings --manifest package.xml -l RunLocalTests ```
-<br> or simply use
+<br><br> or simply use
      ```sfdx force:source:deploy -p force-app -l RunLocalTests```
+<br><br> or just
+     ```sfdx force:source:deploy -p force-app```
 <br><br>
 
 <b>5. Don't forget to use checkout github action in order to retrieve directory files to the machine</b>
