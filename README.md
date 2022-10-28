@@ -27,8 +27,8 @@ steps:
 <br><br>
 6. yaml.file -> https://github.com/Richard98PL/flowRefreshToken/blob/main/.github/workflows/main.yml (#### is comment in yaml - runLocalTests is commented out)
 <br><br>
-7. result
-![image](https://user-images.githubusercontent.com/41301282/198681155-87945b5c-aa13-4dcd-8ff2-98041737bab8.png)
-![image](https://user-images.githubusercontent.com/41301282/198655140-a80b5aa3-0a6b-4b80-bbcc-391683fed58c.png)
+7. result <br>
+![image](https://user-images.githubusercontent.com/41301282/198681542-b272dac1-2b9b-420e-94f7-2fbb4924f040.png)
+
 
 
