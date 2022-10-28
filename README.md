@@ -1,6 +1,8 @@
 <h1>HOW TO STEP BY STEP</h1>
 <br>
 ![image](https://user-images.githubusercontent.com/41301282/198681542-b272dac1-2b9b-420e-94f7-2fbb4924f040.png)
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/41301282/198689872-3eed4dff-a7b5-4603-9350-7fb248c0f2c9.png">
+
 
 <b>1. Create connected app withe following configuration</b>
 ![image](https://user-images.githubusercontent.com/41301282/198654875-c9b5e0c7-8c26-4696-9097-cae630c65b6e.png)
@@ -37,7 +39,7 @@ DON'T repeat the steps, since refresh_token will be invalid
 <b>5. Don't forget to use checkout github action in order to retrieve directory files to the machine</b>
 steps:
      <br> ```- name: Checkout repository files ```
-     <br> ``` uses: actions/checkout@v2```
+     <br></t> ``` uses: actions/checkout@v2```
 <br><br>
 <b>6. yaml.file </b>
 <br> https://github.com/Richard98PL/flowRefreshToken/blob/main/.github/workflows/main.yml 
