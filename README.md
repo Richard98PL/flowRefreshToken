@@ -1,4 +1,4 @@
-<h1>HOW TO STEP BY STEP</h1>
+<h1>SFDX GitHub Actions - HOW TO STEP BY STEP</h1>
 <br>
 <img width="1403" alt="image" src="https://user-images.githubusercontent.com/41301282/198689872-3eed4dff-a7b5-4603-9350-7fb248c0f2c9.png">
 
@@ -51,7 +51,6 @@ DON'T repeat the steps, since refresh_token will be invalid!
 <br><br>
 
 <b>5. Don't forget to use checkout github action in order to retrieve directory files to the machine</b>
-steps:
      <br> ```- name: Checkout repository files ```
      <br>    ```      uses: actions/checkout@v2```
 <br><br>
